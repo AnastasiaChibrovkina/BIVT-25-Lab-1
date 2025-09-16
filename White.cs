@@ -21,9 +21,9 @@
 
             // code here
             
-            if (n%2==0)
+            if (n % 2 == 0)
             {
-                answer= true;
+                answer = true;
             }
             // end
 
@@ -34,7 +34,7 @@
             int answer = 0;
 
             // code here
-            if (a>b)
+            if (a > b)
             {
                 answer = a;
             }
@@ -51,7 +51,7 @@
             double answer = 0;
 
             // code here
-            if (Math.Abs(d)>Math.Abs(f))
+            if (Math.Abs(d) < Math.Abs(f))
             {
                 answer = d;
             }
@@ -68,7 +68,7 @@
             double answer = 0;
 
             // code here
-            if (Math.Abs(x)>1)
+            if (Math.Abs(x) > 1)
             {
                 answer = 1;
             }
@@ -85,7 +85,7 @@
             bool answer = false;
 
             // code here
-            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -4));
+            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -6));
             // end
 
             return answer;
@@ -98,11 +98,11 @@
             // code here
             int s = n * n;
             bool answer = false;
-            if (s-n>2*n)
+            if (s - n > 2 * n)
             {
-                if (n%2==0)
+                if (n % 2 == 0)
                 {
-                    answer= true;
+                    answer = true;
                 }
             }
             // end
