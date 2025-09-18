@@ -20,7 +20,7 @@
             bool answer = false;
 
             // code here
-            
+
             if (n % 2 == 0)
             {
                 answer = true;
@@ -42,16 +42,16 @@
             {
                 answer = b;
             }
-        // end
+            // end
 
-        return answer;
+            return answer;
         }
         public double Task4(double d, double f)
         {
             double answer = 0;
 
             // code here
-            if (Math.Abs(d) < Math.Abs(f))
+            if (Math.Abs(d) <= Math.Abs(f))
             {
                 answer = d;
             }
@@ -85,7 +85,7 @@
             bool answer = false;
 
             // code here
-            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -6));
+            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -4));
             // end
 
             return answer;
