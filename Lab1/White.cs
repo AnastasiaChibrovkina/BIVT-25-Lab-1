@@ -51,7 +51,7 @@
             double answer = 0;
 
             // code here
-            if (Math.Abs(d) < Math.Abs(f))
+            if (Math.Abs(d) <= Math.Abs(f))
             {
                 answer = d;
             }
@@ -85,7 +85,7 @@
             bool answer = false;
 
             // code here
-            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -6));
+            answer = (Math.Abs(x * x + y * y - r * r) <= Math.Pow(10, -4));
             // end
 
             return answer;
